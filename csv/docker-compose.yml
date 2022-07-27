@@ -57,3 +57,5 @@
       - |
         apk add jq; 
         while [ 1 -eq 1 ];do sleep 60;done
+    volumes:
+      - C:\kafkaconnect-standalone\csv:/data
